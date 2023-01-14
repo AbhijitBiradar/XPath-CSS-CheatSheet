@@ -1,60 +1,103 @@
 # CSS CheatSheet
 
-Absolute CSS Selectors
-	In this selector (>) sign is used to reach til element.
-	Example : form>div>div>span>form>div>input
+1. **Absolute CSS Selectors**
 
+```xml
 
-Relative CSS Selectors
-	You should use white space between tags to locate the element. Use “.” for class and “#” for id.
-	Example : form .form-group #user-message
+In this selector (>) sign is used to reach til element.
+Example : form>div>div>span>form>div>input
+
+```
+
+2. **Relative CSS Selectors**
+
+```xml
+
+You should use white space between tags to locate the element. Use “.” for class and “#” for id.
+Example : form .form-group #user-message
 	
+```
+
+3. **Find Element By ID**
+
+```xml
+
+Syntax : #idValue
+Example : #first-name
+		
+```
+
+4. **Find Element By Class**
+
+```xml
+
+Syntax : .classValue
+Example : .txtInput
+		
+```
+
+5. **Find Element By Multiple Classes**
+
+```xml
+
+Syntax : .class1Value.class2Value
+Example : .form-input.txtInput
+		
+```
 	
-Find Element By ID	
-	Syntax : #idValue
-	Example : #first-name
+6. **Find Element By Class & Attribute**
+
+```xml
+
+Syntax : .className[attribute='attributeValue']
+Example : .txtInput[type='text']
+		
+```
+
+7. **Find Child Elements  (Search Immediate Child)**
+
+```xml
+
+Syntax : ParentElement>ChildElement
+Example : div[id='first-name']>input
+		
+```
+
+8. **Find Descendent Elements (Search All Child Elements)**
+
+```xml
+
+Syntax : ParentElement ChildElement
+Example : div[id='first-name'] input
+		
+```
 
 
-Find Element By Class
-	Syntax : .classValue
-	Example : .txtInput
+9. **nth-child(n) method in CSS Selector**
 
+```xml
 
-Find Element By Multiple Classes
-	Syntax : .class1Value.class2Value
-	Example : .form-input.txtInput
-	
-	
-Find Element By Class & Attribute
-	Syntax : .className[attribute='attributeValue']
-	Example : .txtInput[type='text']
+Syntax : ParentElement ChildElement:nth-child(n)
+Note : Index (n) starts from 1
+Example : table>tbody>tr:nth-child(3)
+		
+```
 
+10. **nth-of-type(n) method in CSS Selector**
 
-Find Child Elements  (Search Immediate Child)
-	Syntax : ParentElement>ChildElement
-	Example : div[id='first-name']>input
+```xml
 
-
-Find Descendent Elements (Search All Child Elements)
-	Syntax : ParentElement ChildElement
-	Example : div[id='first-name'] input
-
-
-nth-child(n) method in CSS Selector   
-	Syntax : ParentElement ChildElement:nth-child(n)
-	Note : Index (n) starts from 1
-	Example : table>tbody>tr:nth-child(3)
-
-
-nth-of-type(n) method in CSS Selector
-	Syntax : ParentElement ChildElement:nth-of-type(n)
-	Example : form[id'form1']>label:nth-of-type(3)
+Syntax : ParentElement ChildElement:nth-of-type(n)
+Example : form[id'form1']>label:nth-of-type(3)
+		
+```
 
 
 Finding First Child Element
 	Syntax : ParentElement ChildElement:first-child
 	Example : table>tbody>tr:first-child
 	Example : table>tbody>tr:first-child>td:first-child
+	
 
 
 Finding last Child Element
