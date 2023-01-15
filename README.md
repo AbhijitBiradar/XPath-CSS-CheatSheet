@@ -218,7 +218,7 @@ Example ://input[@type='text' and @name='firstName']
 
 ```
 
-# Xpath using operator	
+# XPath using operator	
 
 1. **Equal (=) Operator**	
 
