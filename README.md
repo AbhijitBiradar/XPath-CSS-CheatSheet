@@ -177,3 +177,49 @@ Example : label[id='first-name' i]
 
 2. How to index same element and not child element...?
 
+
+
+# XPath CheatSheet
+
+# Absoulte XPath
+
+```xml
+
+It contains the complete path from the Root Element to the desire element.
+Example : /html/body/div[2]/div[1]/div/header/div/div/div/div/div/div/div[2]
+
+```
+	
+# Relative XPath
+
+```xml
+
+It starts from the middle of HTML DOM structure. It starts with double forward slash (//). It can search elements anywhere on the webpage, means no need to write a long xpath and you can start from the middle of HTML DOM structure.
+Example : //a[@href='/ask-doubt']
+
+```
+
+
+# Locating Elements with Multiple Attributes
+
+```xml
+
+Syntax: //*[attribute1=’value1’][attribute2=’value2’]…[attributeN=’valueN’]
+Example : //*[@type='text'][@name='firstName']
+
+Syntax: //tagName[attribute1=’value1’][attribute2=’value2’]…[attributeN=’valueN’]
+Example : //input[@type='text'][@name='firstName']
+
+Syntax: //*[attribute1=’value1’ and attribute2=’value2]
+Example : //*[@type='text' and @name='firstName']
+
+Syntax: //tagName[attribute1=’value1’ and attribute2=’value2]
+Example ://input[@type='text' and @name='firstName']	
+
+```
+
+
+
+
+
+
