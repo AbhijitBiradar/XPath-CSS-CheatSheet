@@ -218,6 +218,83 @@ Example ://input[@type='text' and @name='firstName']
 
 ```
 
+# Xpath using operator	
+
+1. **Equal (=) Operator**	
+
+```xml
+
+Syntax: //XPath with Attribute/conditon/function = value
+Example : //td[text()=999]	
+
+```
+
+2. **Not Equal (!=) Operator**	
+
+```xml		
+
+Syntax: //XPath with Attribute/conditon/function != value
+Example : //td[text()!=999]
+
+```
+
+3. **Less than (<) Operator**	
+
+```xml		
+
+Syntax: //XPath with Attribute/conditon/function < value
+Example : //td[text()<999]
+
+```
+
+4. **Greater Than (>) Operator**	
+
+```xml		
+
+Syntax: //XPath with Attribute/conditon/function > value
+Example : //td[text()>999]
+
+```
+
+5. **Less Than or Equal (<=) Operator**	
+
+```xml		
+
+Syntax: //XPath with Attribute/conditon/function <= value
+Example : //td[text()<=999]
+
+```
+
+6. **Greater Than or Equal (>=) Operator**	
+
+```xml		
+
+Syntax: //XPath with Attribute/conditon/function >= value
+Example : //td[text()>=999]
+
+```
+
+7. **OR (or) Operator**		
+
+```xml		
+
+Syntax: //XPath with Attribute/conditon/function or value
+Example : //input[@id='phone' or @type='text']
+
+```
+
+8. **And (and) Operator**	
+
+```xml		
+
+Syntax: //XPath1 [with Attribute1/conditon1/function1 and value1]
+Example : //input[@id='phone' and @type='text']
+
+Syntax: //XPath1 [with Attribute1/conditon1/function1 and value] [with Attribute2/conditon2/function2 and value2]		
+Example : //input[@id='phone'][@type='text']
+
+```
+
 
 
 
