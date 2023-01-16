@@ -295,6 +295,173 @@ Example : //input[@id='phone'][@type='text']
 
 ```
 
+# XPath Methods
+
+1. **last()**
+
+```xml
+Syntax: //tagName[last()]
+Example: //input[last()]
+
+Syntax: //*[Xpath][last()]
+Example: //input[@name='firstName'][last()]
+
+Syntax: //Xpath[position()=last()]
+Example: //input[position()=last()]
+
+```
+
+2. **text()**
+
+```xml
+
+Syntax: //*[text()='Text to search']
+Example: //*[text()='firstName']
+
+Syntax: //tagName[text()='Text to search']
+Example: //input[text()='firstName']
+
+```
+
+3. **contains()**
+
+```xml
+
+Syntax: //*[contains(text(),'Text to search')]
+Example: //*[contains(text(),'firstName')]
+
+Syntax: //*[contains(.,'Text to search')]
+Example: //*[contains(.,'firstName')]
+
+Syntax: //tagName[contains(text(),'Text to search')]
+Example: //input[contains(text(),'abhijit']
+
+Syntax: //tagName[contains(.,'Text to search')]
+Example: //input[contains(.,'abhijit')]
+
+Syntax: //*[contains(@attribute,'Text to search')]
+Example: //*[contains(@text,'abhijit')]
+
+Syntax: //tagName[contains(@attribute,'Text to search')]
+Example: //input[contains(@text,'abhijit')]
+
+```
+
+4. **starts-with()**
+
+```xml
+
+Syntax: //*[starts-with(text(),'Text to search')]
+Example: //*[starts-with(text(),'abhijit'))]
+
+Syntax: //tagName[starts-with(text(),'Text to search')]
+Example: //input[starts-with(text(),'abhi')]
+
+Syntax: //*[starts-with(@attribute,'Text to search')]
+Example: //*[starts-with(@name,'abhijit']
+
+Syntax: //tagName[starts-with(@attribute,'Text to search')]
+Example: //input[starts-with(@attribute,'abhi')]
+
+
+```
+
+5. **ends-with()**
+
+```xml
+
+Syntax: //*[ends-with(text(),'Text to search')]
+Example: //*[ends-with(text(),'jit'))]
+
+Syntax: //tagName[ends-with(text(),'Text to search')]
+Example: //input[ends-with(text(),'jit')]
+
+Syntax: //*[ends-with(@attribute,'Text to search')]
+Example: //*[ends-with(@name,'jit']
+
+Syntax: //tagName[ends-with(@attribute,'Text to search')]
+Example: //input[ends-with(@attribute,'jit')]
+
+
+```
+
+6. **position()**
+
+```xml
+
+Syntax: //*[text()='Text to search']/tr/td[5]Example: 
+Example: 
+
+Syntax: //tagName[text()='Text to search']/tr/td[5]
+Example: 
+
+Syntax: //*[text()='Text to search']/tr/td[position()=5]
+Example: 
+
+Syntax: //tagName[text()='Text to search']/tr/td[position()=5]
+Example: 
+
+Syntax: //*[text()='Text to search']/tr/td[last()]
+Example: 
+
+Syntax: //tagName[text()='Text to search']/tr/td[last()]
+Example: 
+
+Syntax: //*[text()='Text to search']/tr/td[last()-1]
+Example: 
+
+Syntax: //tagName[text()='Text to search']/tr/td[last()-1]
+Example: 
+
+Syntax: //*[text()='Text to search']/tr/td[last()-2]
+Example: 
+
+Syntax: //tagName[text()='Text to search']/tr/td[last()-2]
+Example: 
+
+Syntax: //*[text()='Text to search']/tr[position()>1]/td[5]
+Example: 
+
+Syntax: //tagName[text()='Text to search']/tr[position()>1]/td[5]
+Example: 
+
+Syntax: //*[text()='Text to search']/tr[position()<3]/td[5]
+Example: 
+
+Syntax: //tagName[text()='Text to search']/tr[position()<3]/td[5]
+Example: 
+
+Syntax: //*[text()='Text to search']/tr[position()>=1]/td[5]
+Example: 
+
+Syntax: //tagName[text()='Text to search']/tr[position()>=1]/td[5]
+Example: 
+
+Syntax: //*[text()='Text to search']/tr[position()<=3]/td[5]
+Example: 
+
+Syntax: //tagName[text()='Text to search']/tr[position()<=3]/td[5]
+Example: 
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
