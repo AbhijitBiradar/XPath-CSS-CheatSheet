@@ -1,4 +1,4 @@
-# CSS CheatSheet
+# CSS Selector CheatSheet
 
 1. **Absolute CSS Selectors**
 
@@ -176,6 +176,7 @@ Example : label[id='first-name' i]
 1. How to use and, or operator in css selector...?
 
 2. How to index same element and not child element...?
+
 
 
 
