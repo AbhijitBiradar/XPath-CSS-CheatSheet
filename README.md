@@ -389,64 +389,86 @@ Example: //input[ends-with(@attribute,'jit')]
 
 ```xml
 
-Syntax: //*[text()='Text to search']/tr/td[5]Example: 
-Example: 
+Syntax: //*[text()='Text to search']/tr/td[5]
+Example: //*[text()='userName']/tr/td[5]
 
 Syntax: //tagName[text()='Text to search']/tr/td[5]
-Example: 
+Example: //input[text()='userName']/tr/td[5]
 
 Syntax: //*[text()='Text to search']/tr/td[position()=5]
-Example: 
+Example: //*[text()='userName']/tr/td[position()=5]
 
 Syntax: //tagName[text()='Text to search']/tr/td[position()=5]
-Example: 
+Example: //input[text()='userName']/tr/td[position()=5]
 
 Syntax: //*[text()='Text to search']/tr/td[last()]
-Example: 
+Example: //*[text()='userName']/tr/td[last()]
 
 Syntax: //tagName[text()='Text to search']/tr/td[last()]
-Example: 
+Example: //input[text()='userName']/tr/td[last()]
 
 Syntax: //*[text()='Text to search']/tr/td[last()-1]
-Example: 
+Example: //*[text()='userName']/tr/td[last()-1]
 
 Syntax: //tagName[text()='Text to search']/tr/td[last()-1]
-Example: 
+Example: //input[text()='userName']/tr/td[last()-1]
 
 Syntax: //*[text()='Text to search']/tr/td[last()-2]
-Example: 
+Example: //*[text()='userNameh']/tr/td[last()-2]
 
 Syntax: //tagName[text()='Text to search']/tr/td[last()-2]
-Example: 
+Example: //input[text()='userName']/tr/td[last()-2]
 
 Syntax: //*[text()='Text to search']/tr[position()>1]/td[5]
-Example: 
+Example: //*[text()='userName']/tr[position()>1]/td[5]
 
 Syntax: //tagName[text()='Text to search']/tr[position()>1]/td[5]
-Example: 
+Example: //input[text()='userName']/tr[position()>1]/td[5]
 
 Syntax: //*[text()='Text to search']/tr[position()<3]/td[5]
-Example: 
+Example: //*[text()='userName']/tr[position()<3]/td[5]
 
 Syntax: //tagName[text()='Text to search']/tr[position()<3]/td[5]
-Example: 
+Example: //input[text()='userName']/tr[position()<3]/td[5]
 
 Syntax: //*[text()='Text to search']/tr[position()>=1]/td[5]
-Example: 
+Example: //*[text()='userName']/tr[position()>=1]/td[5]
 
 Syntax: //tagName[text()='Text to search']/tr[position()>=1]/td[5]
-Example: 
+Example: //input[text()='userName']/tr[position()>=1]/td[5]
 
 Syntax: //*[text()='Text to search']/tr[position()<=3]/td[5]
-Example: 
+Example: //*[text()='userName']/tr[position()<=3]/td[5]
 
 Syntax: //tagName[text()='Text to search']/tr[position()<=3]/td[5]
-Example: 
+Example: //input[text()='userName']/tr[position()<=3]/td[5]
 
 ```
 
 
+# Normalize - space XPath
 
+```xml
+
+Syntax: //label[normalize-space(text()),'Text to search']
+Example : //label[normalize-space(text()),'abhijit biradar']
+
+Syntax: //label[normalize-space(@id)='Text to search']
+Example : //label[normalize-space(@id)='abhijit biradar']
+
+```
+	
+# Group Index XPath
+
+```xml
+
+Syntax: (//*[text()='Text to search'])[3]
+Example : (//*[text()='biradar'])[3]
+
+Syntax: (//tagName[text()='Text to search'])[3]
+Example : (//input[text()='biradar'])[3]
+
+```
 
 
 
