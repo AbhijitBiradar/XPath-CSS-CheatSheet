@@ -471,22 +471,179 @@ Example : (//input[text()='biradar'])[3]
 
 ```
 
+# XPath Axes	
 
+1. **Parent Element in XPath**
 
+```xml
 
+Syntax: //XPath/Parent::*
+Example : //input[@name='firstName']/parent::*
 
+Syntax: //XPath/Parent::tagName
+Example : //input[@name='firstName']/parent::div
 
+Syntax: //XPath/..
+Example : //input[@name='firstName']/..
 
+Syntax: //Parent[XPath]
+Example : div[//input[@name='firstName']]
 
+Syntax: //XPath/parent::XPath
+Example : //input[@name='firstName']/parent::table[@id='customer']
 
+```
 
+2. **Child Element in XPath**
 
+```xml
 
+Syntax: //XPath/child::*
+Example : //input[@name='firstName']/child::*
 
+Syntax: //XPath/child::tagName
+Example : //input[@name='firstName']/child::div
 
+Syntax: //XPath/tagName
+Example : //input[@name='firstName']/div
 
+Syntax: //XPath/child::XPath
+Example : //input[@name='firstName']/child::table[@id='customer']
 
+```
 
+3. **Ancestor Element in XPath (Ancestor = Parent Upto Root Element)**
 
+```xml
 
+Syntax: //XPath/ancestor::*
+Example : //input[@name='firstName']/ancestor::*
+
+Syntax: //XPath/ancestor::tagName
+Example : //input[@name='firstName']/ancestor::div
+
+Syntax: //XPath1/ancestor::XPath2
+Example : //input[@name='firstName']/ancestor::table[@id='customer']
+
+```
+
+4. **Descendent Element in XPath (Descendent= Children and Grand Children)**
+
+```xml
+
+Syntax: //XPath/descendent::*
+Example : //input[@name='firstName']/descendent::*
+
+Syntax: //XPath/descendent::tagName
+Example : //input[@name='firstName']/descendent::div[3]
+
+Syntax: //XPath/descendent::XPath
+Example : //input[@name='firstName']/descendent::table[@id='customer']
+
+```
+
+5. **Following Element in XPath (Following= All elements following or after that element)**
+
+```xml
+
+Syntax: //XPath/following::*
+Example : //input[@name='firstName']/following::*
+
+Syntax: //XPath/following::tagName
+Example : //input[@name='firstName']/following::div[3]
+
+Syntax: //XPath/following::XPath
+Example : //input[@name='firstName']/following::div[3]/tr[3]/td[1]
+
+```
+
+6. **Following-sibling Element in XPath (Following-sibling= All sibling of reference element after that element)**
+
+```xml
+
+Syntax: //XPath/following-sibling::*
+Example : //input[@name='firstName']/following-sibling::*
+
+Syntax: //XPath/following-sibling::tagName
+Example : //input[@name='firstName']/following-sibling::div[3]
+
+Syntax: //XPath/following-sibling::XPath
+Example : //input[@name='firstName']/following-sibling::div[3]/tr[3]/td[1]
+
+```
+
+7. **Preceding Element in XPath (Preceding= All elements before that element)**
+
+```xml
+
+Syntax: //XPath/preceding::*
+Example : //input[@name='firstName']/preceding::*
+
+Syntax: //XPath/preceding::tagName
+Example : //input[@name='firstName']/preceding::div[3]
+
+Syntax: //XPath/preceding::XPath
+Example : //input[@name='firstName']/preceding::div[3]/tr[3]/td[1]	
+
+```
+
+8. **Preceding-sibling Element in XPath (Preceding-sibling= All sibling of reference element before that element)**
+
+```xml
+
+Syntax: //XPath/preceding-sibling::*
+Example : //input[@name='firstName']/preceding-sibling::*
+
+Syntax: //XPath/preceding-sibling::tagName
+Example : //input[@name='firstName']/preceding-sibling::div[3]
+
+Syntax: //XPath/preceding-sibling::XPath
+Example : //input[@name='firstName']/preceding-sibling::div[3]/tr[3]/td[1]
+
+```
+
+9. **Ancestor-or-self Element in XPath** 
+
+```xml
+
+Syntax: //XPath/ancestor-or-self::*
+Example : //input[@name='firstName']/ancestor-or-self::*
+
+Syntax: //XPath/ancestor-or-self::tagName
+Example : //input[@name='firstName']/ancestor-or-self::div
+
+Syntax: //XPath1/ancestor-or-self::XPath2
+Example : //input[@name='firstName']/ancestor-or-self::table[@id='customer']
+
+```
+
+10. **Descendent-or-self Element in XPath**  
+
+```xml
+
+Syntax: //XPath/descendent-or-self::*
+Example : //input[@name='firstName']/descendent-or-self::*
+
+Syntax: //XPath/descendent-or-self::tagName
+Example : //input[@name='firstName']/descendent-or-self::div[3]
+
+Syntax: //XPath/descendent-or-self::XPath
+Example : //input[@name='firstName']/descendent-or-self::table[@id='customer']
+
+```
+
+11. **self**
+
+```xml
+
+Syntax: //XPath/self::*
+Example : //input[@name='firstName']/self::*
+
+Syntax: //XPath/self::tagName
+Example : //input[@name='firstName']/self::div[3]
+
+Syntax: //XPath/self::XPath
+Example : //input[@name='firstName']/self::div[3]/tr[3]/td[1]
+
+```
 
