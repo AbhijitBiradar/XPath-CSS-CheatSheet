@@ -112,8 +112,9 @@ Example : table>tbody>tr:last-child>td:last-child
 ```xml
 
 Syntax : [attribute^='attributePrefixValue']
-Syntax : tagName[attribute^='attributePrefixValue']
 Example : [id^='last-name']
+
+Syntax : tagName[attribute^='attributePrefixValue']
 Example : input[id^='first-name']	
 		
 ```
@@ -122,8 +123,9 @@ Example : input[id^='first-name']
 ```xml
 
 Syntax : [attribute$='attributeSufixValue']
-Syntax : tagName[attribute$='attributeSufixValue']
 Example : [id$='last-name']
+
+Syntax : tagName[attribute$='attributeSufixValue']
 Example : input[id$='first-name']
 		
 ```
@@ -132,8 +134,9 @@ Example : input[id$='first-name']
 ```xml
 
 Syntax : [attribute*='partialAttributeValue']
-Syntax : tagName[attribute*='partialAttributeValue']
 Example : [id*='name']
+
+Syntax : tagName[attribute*='partialAttributeValue']
 Example : input[id*='first']
 		
 ```
@@ -164,8 +167,9 @@ Example : label[id='first-name'] ~ input:nth-of-type(3)
 ```xml
 
 Syntax : [attribute='attributeValue' i]
-Syntax : tagName[attribute='attributeValue' i]
 Example : [id='first-name' i]
+
+Syntax : tagName[attribute='attributeValue' i]
 Example : label[id='first-name' i]
 		
 ```	
