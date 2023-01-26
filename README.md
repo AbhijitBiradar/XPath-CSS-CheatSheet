@@ -305,13 +305,22 @@ Example : //input[@id='phone'][@type='text']
 1. **last()**
 
 ```xml
+Syntax: //*[last()]
+Example: //*[last()]
+
 Syntax: //tagName[last()]
 Example: //input[last()]
 
 Syntax: //*[Xpath][last()]
+Example: //*[@name='firstName'][last()]
+
+Syntax: //tagName[Xpath][last()]
 Example: //input[@name='firstName'][last()]
 
-Syntax: //Xpath[position()=last()]
+Syntax: //*[position()=last()]
+Example: //*[position()=last()]
+
+Syntax: //tagName[position()=last()]
 Example: //input[position()=last()]
 
 ```
