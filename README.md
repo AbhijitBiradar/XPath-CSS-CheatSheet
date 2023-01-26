@@ -344,11 +344,11 @@ Example: //input[text()='firstName']
 Syntax: //*[contains(text(),'Text to search')]
 Example: //*[contains(text(),'firstName')]
 
-Syntax: //*[contains(.,'Text to search')]
-Example: //*[contains(.,'firstName')]
-
 Syntax: //tagName[contains(text(),'Text to search')]
 Example: //input[contains(text(),'abhijit']
+
+Syntax: //*[contains(.,'Text to search')]
+Example: //*[contains(.,'firstName')]
 
 Syntax: //tagName[contains(.,'Text to search')]
 Example: //input[contains(.,'abhijit')]
