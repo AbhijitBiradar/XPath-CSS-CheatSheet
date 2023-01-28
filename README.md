@@ -464,8 +464,14 @@ Example: //input[text()='userName']/tr[position()<=3]/td[5]
 
 ```xml
 
+Syntax: //*[normalize-space(text()),'Text to search']
+Example : //*[normalize-space(text()),'abhijit biradar']
+
 Syntax: //label[normalize-space(text()),'Text to search']
 Example : //label[normalize-space(text()),'abhijit biradar']
+
+Syntax: //*[normalize-space(@id)='Text to search']
+Example : //*[normalize-space(@id)='abhijit biradar']
 
 Syntax: //label[normalize-space(@id)='Text to search']
 Example : //label[normalize-space(@id)='abhijit biradar']
