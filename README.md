@@ -546,7 +546,7 @@ Example : //input[@name='firstName']/ancestor::table[@id='customer']
 
 ```
 
-4. **Descendent Element in XPath (descendant= Children and Grand Children)**
+4. **Descendant Element in XPath (Descendant= Children and Grand Children)**
 
 ```xml
 
