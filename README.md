@@ -62,7 +62,7 @@ Example : div[id='first-name']>input
 		
 ```
 
-8. **Find Descendent Elements (Search All Child Elements)**
+8. **Find Descendant Elements (Search All Child Elements)**
 
 ```xml
 
@@ -636,18 +636,18 @@ Example : //input[@name='firstName']/ancestor-or-self::table[@id='customer']
 
 ```
 
-10. **Descendent-or-self Element in XPath**  
+10. **Descendant-or-self Element in XPath**  
 
 ```xml
 
-Syntax: //XPath/descendent-or-self::*
-Example : //input[@name='firstName']/descendent-or-self::*
+Syntax: //XPath/descendant-or-self::*
+Example : //input[@name='firstName']/descendant-or-self::*
 
-Syntax: //XPath/descendent-or-self::tagName
-Example : //input[@name='firstName']/descendent-or-self::div[3]
+Syntax: //XPath/descendant-or-self::tagName
+Example : //input[@name='firstName']/descendant-or-self::div[3]
 
-Syntax: //XPath/descendent-or-self::XPath
-Example : //input[@name='firstName']/descendent-or-self::table[@id='customer']
+Syntax: //XPath/descendant-or-self::XPath
+Example : //input[@name='firstName']/descendant-or-self::table[@id='customer']
 
 ```
 
