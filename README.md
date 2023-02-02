@@ -546,18 +546,18 @@ Example : //input[@name='firstName']/ancestor::table[@id='customer']
 
 ```
 
-4. **Descendent Element in XPath (Descendent= Children and Grand Children)**
+4. **Descendent Element in XPath (descendant= Children and Grand Children)**
 
 ```xml
 
-Syntax: //XPath/descendent::*
-Example : //input[@name='firstName']/descendent::*
+Syntax: //XPath/descendant::*
+Example : //input[@name='firstName']/descendant::*
 
-Syntax: //XPath/descendent::tagName
-Example : //input[@name='firstName']/descendent::div[3]
+Syntax: //XPath/descendant::tagName
+Example : //input[@name='firstName']/descendant::div[3]
 
-Syntax: //XPath/descendent::XPath
-Example : //input[@name='firstName']/descendent::table[@id='customer']
+Syntax: //XPath/descendant::XPath
+Example : //input[@name='firstName']/descendant::table[@id='customer']
 
 ```
 
