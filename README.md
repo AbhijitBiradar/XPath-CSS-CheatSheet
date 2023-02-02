@@ -561,7 +561,7 @@ Example : //input[@name='firstName']/descendant::table[@id='customer']
 
 ```
 
-5. **Following Element in XPath (Following= All elements following or after that element)**
+5. **Following Element in XPath (Following= All elements following or after that element in DOM including children and Grand Children)**
 
 ```xml
 
