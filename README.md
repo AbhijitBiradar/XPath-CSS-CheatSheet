@@ -666,3 +666,11 @@ Example : //input[@name='firstName']/self::div[3]/tr[3]/td[1]
 
 ```
 
+### Reference
+
+https://www.softwaretestinghelp.com/xpath-axes-tutorial/
+
+https://www.scientecheasy.com/2019/08/xpath-axes.html/
+
+https://www.guru99.com/xpath-selenium.html
+
