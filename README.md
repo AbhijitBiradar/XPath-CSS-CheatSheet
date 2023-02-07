@@ -659,14 +659,14 @@ Syntax: //XPath/self::*
 Example : //input[@name='firstName']/self::*
 
 Syntax: //XPath/self::tagName
-Example : //input[@name='firstName']/self::div[3]
+Example : //input[@name='firstName']/self::input[1]
 
 Syntax: //XPath/self::XPath
-Example : //input[@name='firstName']/self::div[3]/tr[3]/td[1]
+Example : //input[@name='firstName']/self:://input[@name='firstName']
 
 ```
 
-### Reference
+### Further Reference
 
 https://www.softwaretestinghelp.com/xpath-axes-tutorial/
 
