@@ -662,7 +662,7 @@ Syntax: //XPath/self::tagName
 Example : //input[@name='firstName']/self::input[1]
 
 Syntax: //XPath/self::XPath
-Example : //input[@name='firstName']/self:://input[@name='firstName']
+Example : //input[@name='firstName']/self::input[@name='firstName']
 
 ```
 
