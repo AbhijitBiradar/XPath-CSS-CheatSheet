@@ -668,6 +668,10 @@ Example : //input[@name='firstName']/self::input[@name='firstName']
 
 ### Further Reference
 
+https://www.swtestacademy.com/css-selenium/
+
+https://www.swtestacademy.com/xpath-selenium/
+
 https://www.softwaretestinghelp.com/xpath-axes-tutorial/
 
 https://www.scientecheasy.com/2019/08/xpath-axes.html/
