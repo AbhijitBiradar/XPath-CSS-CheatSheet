@@ -668,6 +668,15 @@ Example : //input[@name='firstName']/self::input[@name='firstName']
 
 ### Further Reference
 
+nth-child vs nth-of-type:
+
+https://www.geeksforgeeks.org/difference-between-the-nth-child-and-nth-of-type-selectors-in-jquery/
+
+https://stackoverflow.com/questions/9313769/nth-of-type-vs-nth-child
+
+
+Other Resources:
+
 https://www.swtestacademy.com/css-selenium/
 
 https://www.swtestacademy.com/xpath-selenium/
